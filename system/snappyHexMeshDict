@@ -29,168 +29,170 @@ addLayers       true;
 // - to 'snap' the mesh boundary to the surface
 geometry
 {
-    cylinder_x11.775_y7.8875_z0.stl
+    cylinder_set1_0.stl
+    {
+        type triSurfaceMesh;
+        name cylinder_set1_0;
+    }
+    cylinder_set1_1.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_1;
     }
-    cylinder_x11.85_y7.8875_z0.stl
+    cylinder_set1_2.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_2;
     }
-    cylinder_x11.925_y7.8875_z0.stl
+    cylinder_set1_3.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_3;
     }
-    cylinder_x12_y7.8875_z0.stl
+    cylinder_set1_4.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_4;
     }
-    cylinder_x11.775_y7.9625_z0.stl
+    cylinder_set1_5.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_5;
     }
-    cylinder_x11.85_y7.9625_z0.stl
+    cylinder_set1_6.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_6;
     }
-    cylinder_x11.925_y7.9625_z0.stl
+    cylinder_set1_7.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_7;
     }
-    cylinder_x12_y7.9625_z0.stl
+    cylinder_set1_8.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_8;
     }
-    cylinder_x11.775_y8.0375_z0.stl
+    cylinder_set1_9.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_9;
     }
-    cylinder_x11.85_y8.0375_z0.stl
+    cylinder_set1_10.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_10;
     }
-    cylinder_x11.925_y8.0375_z0.stl
+    cylinder_set1_11.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_11;
     }
-    cylinder_x12_y8.0375_z0.stl
+    cylinder_set1_12.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_12;
     }
-    cylinder_x11.775_y8.1125_z0.stl
+    cylinder_set1_13.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_13;
     }
-    cylinder_x11.85_y8.1125_z0.stl
+    cylinder_set1_14.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_14;
     }
-    cylinder_x11.925_y8.1125_z0.stl
+    cylinder_set1_15.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_15;
     }
-    cylinder_x12_y8.1125_z0.stl
+
+        cylinder_set2_0.stl
     {
         type triSurfaceMesh;
-        name cylinder_set1_16;
+        name cylinder_set2_0;
     }
-
-    cylinder_x12.5_y7.8875_z0.stl
+    cylinder_set2_1.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_1;
     }
-    cylinder_x12.575_y7.8875_z0.stl
+    cylinder_set2_2.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_2;
     }
-    cylinder_x12.65_y7.8875_z0.stl
+    cylinder_set2_3.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_3;
     }
-    cylinder_x12.725_y7.8875_z0.stl
+    cylinder_set2_4.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_4;
     }
-    cylinder_x12.5_y7.9625_z0.stl
+    cylinder_set2_5.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_5;
     }
-    cylinder_x12.575_y7.9625_z0.stl
+    cylinder_set2_6.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_6;
     }
-    cylinder_x12.65_y7.9625_z0.stl
+    cylinder_set2_7.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_7;
     }
-    cylinder_x12.725_y7.9625_z0.stl
+    cylinder_set2_8.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_8;
     }
-    cylinder_x12.5_y8.0375_z0.stl
+    cylinder_set2_9.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_9;
     }
-    cylinder_x12.575_y8.0375_z0.stl
+    cylinder_set2_10.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_10;
     }
-    cylinder_x12.65_y8.0375_z0.stl
+    cylinder_set2_11.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_11;
     }
-    cylinder_x12.725_y8.0375_z0.stl
+    cylinder_set2_12.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_12;
     }
-    cylinder_x12.5_y8.1125_z0.stl
+    cylinder_set2_13.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_13;
     }
-    cylinder_x12.575_y8.1125_z0.stl
+    cylinder_set2_14.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_14;
     }
-    cylinder_x12.65_y8.1125_z0.stl
+    cylinder_set2_15.stl
     {
         type triSurfaceMesh;
         name cylinder_set2_15;
     }
-    cylinder_x12.725_y8.1125_z0.stl
-    {
-        type triSurfaceMesh;
-        name cylinder_set2_16;
-    }
 };
+
+
 
 // Settings for the castellatedMesh generation.
 castellatedMeshControls
@@ -220,7 +222,7 @@ castellatedMeshControls
     // Number of buffer layers between different levels.
     // 1 means normal 2:1 refinement restriction, larger means slower
     // refinement.
-    nCellsBetweenLevels 20;
+    nCellsBetweenLevels 30;
 
 
 
@@ -246,165 +248,165 @@ castellatedMeshControls
 
     refinementSurfaces
     {
+        cylinder_set1_0
+        {
+           // Surface-wise min and max refinement level
+            level (2 2);
+        }
         cylinder_set1_1
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_2
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_3
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_4
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_5
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_6
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_7
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_8
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_9
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_10
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_11
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_12
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_13
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_14
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set1_15
         {
-            // Surface-wise min and max refinement level
-            level (2 2);
-        }
-        cylinder_set1_16
-        {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
 
+        cylinder_set2_0
+        {
+           // Surface-wise min and max refinement level
+            level (2 2);
+        }
         cylinder_set2_1
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_2
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_3
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_4
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_5
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_6
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_7
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_8
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_9
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_10
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_11
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_12
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_13
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_14
         {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
         cylinder_set2_15
         {
-            // Surface-wise min and max refinement level
-            level (2 2);
-        }
-        cylinder_set2_16
-        {
-            // Surface-wise min and max refinement level
+           // Surface-wise min and max refinement level
             level (2 2);
         }
     }
@@ -497,6 +499,11 @@ addLayersControls
     // Per final patch (so not geometry!) the layer information
     layers
     {
+        cylinder_set1_0
+        {
+           nSurfaceLayers 5;
+           finalLayerThickness 0.0014;
+        }
         cylinder_set1_1
         {
            nSurfaceLayers 5;
@@ -572,12 +579,12 @@ addLayersControls
            nSurfaceLayers 5;
            finalLayerThickness 0.0014;
         }
-        cylinder_set1_16
+
+        cylinder_set2_0
         {
            nSurfaceLayers 5;
            finalLayerThickness 0.0014;
         }
-
         cylinder_set2_1
         {
            nSurfaceLayers 5;
@@ -649,11 +656,6 @@ addLayersControls
            finalLayerThickness 0.0014;
         }
         cylinder_set2_15
-        {
-           nSurfaceLayers 5;
-           finalLayerThickness 0.0014;
-        }
-        cylinder_set2_16
         {
            nSurfaceLayers 5;
            finalLayerThickness 0.0014;
