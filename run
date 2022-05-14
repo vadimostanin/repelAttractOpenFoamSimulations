@@ -36,8 +36,8 @@ echo -e "   - Create background mesh"
 blockMesh
 # ideasUnvToFoam cad/backgroundMesh.unv > logFile
 # transformPoints "scale=(16.0 16.0 1.0)"  >> logFile
-refineMesh -overwrite
-refineMesh -overwrite
+# refineMesh -overwrite
+# refineMesh -overwrite
 # refineMesh -overwrite
 
 #------------------------------------------------------------------------------
@@ -76,7 +76,10 @@ cp -r 0.orig 0
 
 #------------------------------------------------------------------------------
 echo -e "   - Start simulation"
-pisoFoam > /dev/null # logFile
+decomposePar
+mpirun -np 6 pisoFoam -parallel >/dev/null
+reconstructPar
+#pisoFoam >/dev/null #logFile
 
 
 #------------------------------------------------------------------------------
