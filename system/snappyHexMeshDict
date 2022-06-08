@@ -29,13 +29,12 @@ addLayers       true;
 // - to 'snap' the mesh boundary to the surface
 geometry
 {
-    cylinder_x1.95_y2_z0.stl
+    cylinder_x1.5_y1.55_z0.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_1;
     }
-
-    cylinder_x2.05_y2_z0.stl
+    cylinder_x1.5_y1.45_z0.stl
     {
         type triSurfaceMesh;
         name cylinder_set1_2;
@@ -103,7 +102,6 @@ castellatedMeshControls
             // Surface-wise min and max refinement level
             level (2 2);
         }
-
         cylinder_set1_2
         {
             // Surface-wise min and max refinement level
@@ -204,7 +202,6 @@ addLayersControls
            nSurfaceLayers 5;
            finalLayerThickness 0.0014;
         }
-
         cylinder_set1_2
         {
            nSurfaceLayers 5;

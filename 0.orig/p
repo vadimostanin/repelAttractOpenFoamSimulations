@@ -40,7 +40,6 @@ boundaryField
     {
         type            zeroGradient;
     }
-
     cylinder_set1_2
     {
         type            zeroGradient;
